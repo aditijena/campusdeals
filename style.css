@@ -1,0 +1,166 @@
+
+     
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ededf8;
+            color: #333;
+        }
+
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #2e86de;
+            color: white;
+        }
+
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav .nav-links a:hover {
+            text-decoration: underline;
+        }
+        nav .variant-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav .variant-links a:hover {
+            text-decoration: underline;
+        }
+
+
+    
+        .hero {
+            text-align: center;
+            padding: 20px 20px;
+            
+            color: rgb(32, 31, 31);
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .hero p {
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Featured Discounts */
+        .discounts {
+            padding: 40px 20px;
+        }
+
+        .discounts h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .discounts .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .discounts .card {
+            background-color: rgb(245, 248, 253);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .discounts .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .discounts .card h3 {
+            margin: 10px 0;
+            font-size: 17px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .discounts .card p {
+            font-size: 18px;
+            color: #666;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .discounts .card .cta {
+            color: #2e86de;
+            font-weight: bold;
+            text-decoration: none;
+            padding-top: 2px;
+        }
+
+        /* Sign-up Form */
+        .signup {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #eaf2f8;
+        }
+
+        .signup h2 {
+            margin-bottom: 20px;
+        }
+
+        .signup form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .signup input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .signup button {
+            padding: 10px 20px;
+            background-color: #2e86de;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .signup button:hover {
+            background-color: #1a60b8;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
